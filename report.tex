@@ -1,3 +1,4 @@
+
 %% report_template.tex
 %% V1.0
 %% 2012-03-16
@@ -57,12 +58,14 @@
 \documentclass[conference]{IEEEtran}
 % If IEEEtran.cls has not been installed into the LaTeX system files,
 % manually specify the path to it like:
-% \documentclass[conference]{../sty/IEEEtran}
+% \documentclass[conference]{../sty/IEEEtran}	   
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
 
 \begin{document}
 
-\title{Title}
 
+\title{The Android Open Source Project}
 
 % author names and affiliations
 % use a multiple column layout for up to three different
@@ -73,68 +76,102 @@ line 2: name of organization, acronyms acceptable\\
 line 3: City, Country\\
 line 4: e-mailaddress if desired}
 \and
-\IEEEauthorblockN{Per Olson\\and Nina Garcic\\}
+\IEEEauthorblockN{Alexander Anderson, Björn Isacsson,\\Timmy Larsson and Björn Lindquist\\}
 \IEEEauthorblockA{Student at Lund University\\
 Lund, Sweden\\
-me@e-mail.me}}
+\href{mailto:dat12aan@student.lu.se}{Alexander Anderson}, \href{mailto:dat12bis@student.lu.se}{Björn Isacsson} \\ \href{mailto:timmy.larsson.983@student.lu.se}{Timmy Larsson}, \href{mailto:?????}{Björn Lindquist}}}
 
 
 \maketitle
 
 
 \begin{abstract}
-This document is a template. The various components of your paper (title, headings, etc.) are already defined on the style sheet, as illustrated by the portions given in this document. The abstract of the final report should present i) background or context, ii) objectives or aims, iii) method for the study, iv) results, and v) conclusions.
+%This document is a template. The various components of your paper (title, headings, etc.) are already defined on the style sheet, as illustrated by the portions given in this document. The abstract of the final report should present i) background or context, ii) objectives or aims, iii) method for the study, iv) results, and v) conclusions.
+
+Background
+Objectives
+Method
+Results
+Conclusions
+
 \end{abstract}
 
-\section{Introduction}
-The introduction section can be used to introduce the company in general or to introduce the purpose and context of this report. This template is a document that provides the predefined outline of your group essay from the seminar compendium. If you want to change or adjust your outline, you must do so before the outline is due (April 11, 2014). The outline shall include a brief description of your system in Section~\ref{system}, and the results from the seminars in Sections~\ref{quality}, \ref{availability}, and \ref{legal} --- at least an itemized form. Further, literature that you base your analysis on should be listed. Primarily, \emph{peer-reviewed literature} shall be used.
 
-It is important to note that you have a page limit of 5-7 pages (excluding references) for your final report (which is due May 16, 2014), hence it is important to decide how much should be analyzed, discussed, and written for each section.
+\section{Introduction}
+%The introduction section can be used to introduce the company in general or to introduce the purpose and context of this report. This template is a document that provides the predefined outline of your group essay from the seminar compendium. If you want to change or adjust your outline, you must do so before the outline is due (April 11, 2014). The outline shall include a brief description of your system in Section~\ref{system}, and the results from the seminars in Sections~\ref{quality}, \ref{availability}, and \ref{legal} --- at least an itemized form. Further, literature that you base your analysis on should be listed. Primarily, \emph{peer-reviewed literature} shall be used.
+
+%It is important to note that you have a page limit of 5-7 pages (excluding references) for your final report (which is due May 16, 2014), hence it is important to decide how much should be analyzed, discussed, and written for each section.
+
+The company behind the Android Open Source Project is Google... \{More stuff about Google here\}\\
+\\
+This report intends to study some of the social aspects of the Android Open Source Project. These include quality characteristics, the availability for the disabled as well as ethical-, legal- and business aspects of the project. 
+
 
 \section{Description of the System}
 \label{system}
-In this section you should describe the system that your group has selected. Your system description should not only describe the technical parts of the system, but also from a user point of view. 
+%In this section you should describe the system that your group has selected. Your system description should not only describe the technical parts of the system, but also from a user point of view. 
+
+The Android Open Source Project is a project created and lead by Google. It's an operating system for cell phones, and the entire code is open source, i.e. available for anybody to see. It also allows you to make your own versions of the operating system and even contribute those to make them openly available to everyone else who might be interested.
+
 
 \section{Quality Characteristics}
 \label{quality}
-Under this section you should discuss which quality characteristics are particular important for this system. Which quality characteristics are considered most important, i.e. prioritize among the relevant quality characteristics, and provide a rationale for the prioritization. In addition, from which perspective is the prioritization important. You find the quality characteristics in the ISO 9126 standard in one article, e.g. \cite{jung2004} in the articles course compendium. The prioritization can be performed at the characteristics level and/or at the sub-characteristics level.
-    \item Usability
-    \item Portability
-    \item Efficiency
-    \item Reliability
-    \item Maintainability
-    \item Functionality
-\end{enumerate}
+%Under this section you should discuss which quality characteristics are particular important for this system. Which quality characteristics are considered most important, i.e. prioritize among the relevant quality characteristics, and provide a rationale for the prioritization. In addition, from which perspective is the prioritization important. You find the quality characteristics in the ISO 9126 standard in one article, e.g. \cite{jung2004} in the articles course compendium. The prioritization can be performed at the characteristics level and/or at the sub-characteristics level.
+
+{Text}
+
 
 \section{Availability for Disabled}
 \label{availability}
-Here you should provide a discussion/analysis of which aspects of availability for the elderly, disabled, and individuals with special needs are current interests. Analyze how can Information and Communication Technology (ICT) help people with disability. However, if your system is not applicable for people with disabilities, analyze the system with respect to accessibility with respect to general human-computer interaction. 
+%Here you should provide a discussion/analysis of which aspects of availability for the elderly, disabled, and individuals with special needs are current interests. Analyze how can Information and Communication Technology (ICT) help people with disability. However, if your system is not applicable for people with disabilities, analyze the system with respect to accessibility with respect to general human-computer interaction. 
+
+{Text}
+
 
 \section{Ethical Aspects}
 \label{ethics}
-Which ethical questions must be answered for the system? Here you should identify, and discuss, ethical dilemmas/potential ethical issues related to your system. Examples of different kinds of ethical dilemmas can be found in Berenbach and Broy \cite{berenbach2004}.
+%Which ethical questions must be answered for the system? Here you should identify, and discuss, ethical dilemmas/potential ethical issues related to your system. Examples of different kinds of ethical dilemmas can be found in Berenbach and Broy \cite{berenbach2004}.
+
+{Text}
+
 
 \section{Legal Aspects}
 \label{legal}
-In this section you should discuss and analyze which legal aspects, e.g. intellectual property, are relevant for your system.
+%In this section you should discuss and analyze which legal aspects, e.g. intellectual property, are relevant for your system.
+
+{Text}
+
 
 \section{Business Aspects}
 \label{financial}
-Under this section business aspects should be analyzed and discussed. What are the business driving forces in favor of and against your system? Who are the investors, who can make a profit, what is the cost for the individual, and what is the cost for society? Which business model is used for your system, and what investment strategy is used (short-term or long-term)? These questions are examples of what can be analyzed with regards to business aspects. 
+%Under this section business aspects should be analyzed and discussed. What are the business driving forces in favor of and against your system? Who are the investors, who can make a profit, what is the cost for the individual, and what is the cost for society? Which business model is used for your system, and what investment strategy is used (short-term or long-term)? These questions are examples of what can be analyzed with regards to business aspects. 
+
+{Text}
+
 
 \section{Summary}
-In the summary section you should summarize what your report is about and present your main findings/consequences. 
+%In the summary section you should summarize what your report is about and present your main findings/consequences. 
+
+{Text}
+
 
 \section{Contribution Statement}
-In this section you state the role and contribution of each co-author. 
+%In this section you state the role and contribution of each co-author. 
+
+{Text}
+
 
 % references section
 \begin{thebibliography}{1}
-\bibitem{jung2004}
-H-W. Jung, S-G Kim, and C-S Chung, ''Measuring Software Product Quality: A Survey of ISO/IEC 9126'' IEEE Software, 21(5), pp. 88--92, 2004.
 
-\bibitem{berenbach2004}
-B. Berenbach, and M. Broy, ''Professional and ethical dilemmas in software engineering'' Computer, 42(1), pp. 74--88, 2004
+%\bibitem{jung2004}
+%H-W. Jung, S-G Kim, and C-S Chung, ''Measuring Software Product Quality: A Survey of ISO/IEC 9126'' IEEE Software, 21(5), pp. 88--92, 2004.
+
+%\bibitem{berenbach2004}
+%B. Berenbach, and M. Broy, ''Professional and ethical dilemmas in software engineering'' Computer, 42(1), pp. 74--88, 2004
+
+\bibitem{android}
+Android Developers. ''Welcome to the Android Open Source Project!'' Program documentation. N.p., n.d. Web. 30 Mar. 2014. <https://source.android.com/>.
 
 \end{thebibliography}
 
