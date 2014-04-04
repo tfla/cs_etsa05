@@ -1,4 +1,3 @@
-% Detta är en ändring
 %% report_template.tex
 %% V1.0
 %% 2012-03-16
@@ -61,6 +60,20 @@
 % \documentclass[conference]{../sty/IEEEtran}	   
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+
+\hypersetup{
+ pdfborder={0 0 0},				% Ingen "ram".
+ pdftitle={The Android Open Source Project},	% Dokumenttitel.
+ pdfauthor={Alexander Andersson,
+	Björn Isacsson,
+	Björn Lindquist,
+	Timmy Larsson},				% Författaren.
+ colorlinks=false, 				% false: boxade länkar; true: färgade länkar
+ linkcolor=red,					% Färg på interna länkar
+ citecolor=green,				% Färg på länkar till referenser
+ filecolor=magenta,				% Färg på fillänkar
+ urlcolor=cyan					% Färg på externa länkar
+}
 
 \begin{document}
 
@@ -139,8 +152,7 @@ The Android Open Source Project is a project created and lead by Google. It's an
 \label{legal}
 %In this section you should discuss and analyze which legal aspects, e.g. intellectual property, are relevant for your system.
 
-{Text}
-
+{The Android Open Source project is mainly licensed under the Apache Software License 2.0 \cite{apache-license}, something that has been criticised by, among others, Richard Stallman for not being Free Software\cite{rms-android}. Other parts of the system, namely the Linux kernel and applicable patches, are (inherently) licensed with the GPLV2 license\cite{gplv2}\cite{android-licenses}.}
 
 \section{Business Aspects}
 \label{financial}
