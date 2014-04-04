@@ -62,23 +62,23 @@
 \usepackage{hyperref}
 
 \hypersetup{
-  pdfborder={0 0 0},				% Ingen "ram".
-  pdftitle={The Android Open Source Project},	% Dokumenttitel.
-  pdfauthor={Alexander Andersson,
+ pdfborder={0 0 0},				% Ingen "ram".
+ pdftitle={The Android Open Source Project},	% Dokumenttitel.
+ pdfauthor={Alexander Andersson,
 	Björn Isacsson,
 	Björn Lindquist,
-	Timmy Larsson},			% Författaren.
-  colorlinks=false, 			% false: boxade länkar; true: färgade länkar
-  linkcolor=red,			% Färg på interna länkar
-  citecolor=green,			% Färg på länkar till referenser
-  filecolor=magenta,			% Färg på fillänkar
-  urlcolor=cyan				% Färg på externa länkar
+	Timmy Larsson},				% Författaren.
+ colorlinks=false, 				% false: boxade länkar; true: färgade länkar
+ linkcolor=red,					% Färg på interna länkar
+ citecolor=green,				% Färg på länkar till referenser
+ filecolor=magenta,				% Färg på fillänkar
+ urlcolor=cyan					% Färg på externa länkar
 }
 
 \begin{document}
 
 
-\title{The Android Open Source Project}
+\title{Social Aspects of the Android Open Source Project}
 
 % author names and affiliations
 % use a multiple column layout for up to three different
@@ -90,10 +90,10 @@
 %line 3: City, Country\\
 %line 4: e-mailaddress if desired}
 %\and
-\IEEEauthorblockN{Alexander Anderson, Björn Isacsson,\\Timmy Larsson and Björn Lindquist\\}
-\IEEEauthorblockA{Student at Lund University\\
+\IEEEauthorblockN{Alexander Anderson, Björn Isacsson, Timmy Larsson and Björn Lindquist\\}
+\IEEEauthorblockA{Students at Lund University\\
 Lund, Sweden\\
-\href{mailto:dat12aan@student.lu.se}{Alexander Anderson}, \href{mailto:dat12bis@student.lu.se}{Björn Isacsson} \\ \href{mailto:bas11tla@student.lu.se}{Timmy Larsson}, \href{mailto:dat12bli@student.lu.se}{Björn Lindquist}}}
+\href{mailto:dat12aan@student.lu.se}{Alexander Anderson}, \href{mailto:dat12bis@student.lu.se}{Björn Isacsson},  \href{mailto:bas11tla@student.lu.se}{Timmy Larsson}, \href{mailto:dat12bli@student.lu.se}{Björn Lindquist}}}
 
 
 \maketitle
@@ -102,9 +102,8 @@ Lund, Sweden\\
 \begin{abstract}
 %This document is a template. The various components of your paper (title, headings, etc.) are already defined on the style sheet, as illustrated by the portions given in this document. The abstract of the final report should present i) background or context, ii) objectives or aims, iii) method for the study, iv) results, and v) conclusions.
 
-Background
-Objectives
-Method
+This report was written as part of a course on soft issues in software engineering. The report studies the social aspects of the Android Open Source Project, discussing the ethical-, legal- and business aspects of the Project. It also looks into the quality characteristics and availability for disabled. This was done by studying what is included in the Android Open Source Project, as well as with the help of peer-reviewed and other sources. 
+
 Results
 Conclusions
 
@@ -116,9 +115,7 @@ Conclusions
 
 %It is important to note that you have a page limit of 5-7 pages (excluding references) for your final report (which is due May 16, 2014), hence it is important to decide how much should be analyzed, discussed, and written for each section.
 
-The company behind the Android Open Source Project is Google... 
-\\
-This report intends to study some of the social aspects of the Android Open Source Project. These include quality characteristics, the availability for the disabled as well as ethical-, legal- and business aspects of the project. 
+The company behind the Android Open Source Project is Google. Everybody knows about their search engine, google.com. But they are also generally known for being very popular among computer enthusiasts, but due to their massive amount of information gathering for personalised adds, many also oppose them. In 2008 they also released their operating system for cell phones, namely Android.\cite{android-release} And when doing so, they also released it as open source. This includes the entire operating system, however Google's own apps are not included. By releasing the operating system as open source through the Android Open Source Project, they have allowed developers to produce their own versions of the system completely free, making Google's Android one of the largest competitors in the cell phone operating system market.\cite{android-market}
 
 
 \section{Description of the System}
@@ -126,8 +123,6 @@ This report intends to study some of the social aspects of the Android Open Sour
 %In this section you should describe the system that your group has selected. Your system description should not only describe the technical parts of the system, but also from a user point of view. 
 
 The Android Open Source Project is a project created and lead by Google. It's an operating system for cell phones, and the entire code is open source, i.e. available for anybody to see. It also allows you to make your own versions of the operating system and even contribute those to make them openly available to everyone else who might be interested.
-
-%{\cite{android-plattforms}}
 
 
 \section{Quality Characteristics}
@@ -151,41 +146,37 @@ Android open source project (AOSP) is in it's nature as a smartphone and tablet 
 \label{ethics}
 %Which ethical questions must be answered for the system? Here you should identify, and discuss, ethical dilemmas/potential ethical issues related to your system. Examples of different kinds of ethical dilemmas can be found in Berenbach and Broy \cite{berenbach2004}.
 
-%{\cite{android-jail}}
-%{\cite{android-license}}
-
+{Text}
 
 
 \section{Legal Aspects}
 \label{legal}
 %In this section you should discuss and analyze which legal aspects, e.g. intellectual property, are relevant for your system.
 
-{The Android Open Source project is mainly licensed under the Apache Software License 2.0 \cite{apache-license}, something that has been criticised by, among others, Richard Stallman for not being Free Software\cite{rms-android}. Other parts of the system, namely the Linux kernel and applicable patches, are (inherently) licensed with the GPLV2 license\cite{gplv2}\cite{android-licenses}.}
-
+{The Android Open Source project is mainly licensed under the Apache Software License 2.0 \cite{apache-license}, something that has been criticised by, among others, Richard Stallman for not being Free Software\cite{rms-android}. Other parts of the system, namely the Linux kernel and applicable patches, are (inherently) licensed with the GPLV2 license\cite{gplv2}\cite{android-licenses}. Despite using Open Source to encourage participatory culture, Google holds a handful of patents that could be used to stifle competition\cite{google-slide-unlock}\cite{google-radial-menu}}.
 
 \section{Business Aspects}
 \label{financial}
 %Under this section business aspects should be analyzed and discussed. What are the business driving forces in favor of and against your system? Who are the investors, who can make a profit, what is the cost for the individual, and what is the cost for society? Which business model is used for your system, and what investment strategy is used (short-term or long-term)? These questions are examples of what can be analyzed with regards to business aspects. 
 
-{cite{android-
-
-{Text}
-
+Google does not make any direct money of Android Open Source Project (AOSP), due to the fact that licensing is free.\cite{Money} The way for Google to make money is to push out android phones, and the fact that they use Google licensed product such as Chrome, Google Search, etc. Google's search engine is today two thirds of the company revenue service and makes up for any loses that are made from AOSP. To be able to use AOSP, one must seek either a individual grant or an company grant. \cite{android-licenses} These licenses are free and Google takes none of the profit generated by products or systems that uses an Appache License.
 
 \section{Summary}
 %In the summary section you should summarize what your report is about and present your main findings/consequences. 
 
-{Text}
+{In conclusion, The Android Open Source Project has been largely successfull with spreading the operating system, obtaining developers and encouraging participation from the community. Despite Google not seeing any significant revenue streams from the project itself, it acts as a gateway-product to introduce (and lock) customers to their other products, adding to their vast data collections.}
 
 
 \section{Contribution Statement}
 %In this section you state the role and contribution of each co-author. 
 
-{Co-Author Björn Lindquist has been in charge of researching och writing the Buisness Aspects of this paper. He has also spent time peer-reviewing the other co-authors pieces.
-\\\\
-Co-Author Alexander Anderson has been in charge of researching and writing the Availability for Disabled part of this paper and has spent time peer-reviewing the other co-authors pieces.}
-
-
+{Co-Author Björn Lindquist has been in charge of researching och writing the Buisness Aspects of this paper. He has also spent time peer-reviewing the other co-authors' pieces.}
+\\
+\\
+{Co-Author Alexander Anderson has been in charge of researching and writing the Availability for Disabled part of this paper and has spent time peer-reviewing the other co-authors pieces.}
+\\
+\\
+{Co-Author Björn Isacsson has been in charge of writing the Abstract, the Introduction and the Description of the System. He has also spent time peer-reviewing the other co-authors pieces.}
 
 % references section
 \begin{thebibliography}{1}
@@ -200,16 +191,28 @@ Co-Author Alexander Anderson has been in charge of researching and writing the A
 Android Developers. ''Welcome to the Android Open Source Project!'' Program documentation. N.p., n.d. Web. 30 Mar. 2014. \url{https://source.android.com/}.
 
 \bibitem{apache-license}
-The Apache Software Foundation ''Apache License, Version 2.0'' January 2004 \url{http://www.apache.org/licenses/LICENSE-2.0}
+The Apache Software Foundation ''Apache License, Version 2.0'' January 2004 \url{http://www.apache.org/licenses/LICENSE-2.0}.
 
 \bibitem{rms-android}
-Richard Stallman ''Is Android really free software?'' 19 September 2011 The Guardian \url{http://www.theguardian.com/technology/2011/sep/19/android-free-software-stallman}
+Richard Stallman ''Is Android really free software?'' 19 September 2011 The Guardian \url{http://www.theguardian.com/technology/2011/sep/19/android-free-software-stallman}.
 
 \bibitem{gplv2}
-GNU GENERAL PUBLIC LICENSE Version 2, June 1991 \url{https://www.kernel.org/pub/linux/kernel/COPYING}
+GNU GENERAL PUBLIC LICENSE Version 2, June 1991 \url{https://www.kernel.org/pub/linux/kernel/COPYING}.
 
 \bibitem{android-licenses}
-Android Open Source Project ''Licenses'' \url{http://source.android.com/source/licenses.html}
+Android Open Source Project ''Licenses'' \url{http://source.android.com/source/licenses.html}.
+
+\bibitem{google-radial-menu}
+Jack Purcher ''Google Patent Reveals New Radial Menu Design for Android'' Marh 14 2014 \url{http://www.patentbolt.com/2014/03/google-patent-reveals-new-radial-menu-design-for-android.html}
+
+\bibitem{google-slide-unlock}
+United States Patent 8,504,842 \url{http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=\%2Fnetahtml\%2FPTO\%2Fsearch-adv.htm&r=7&p=1&f=G&l=50&d=PTXT&S1=\%2820130806.PD.+AND+Google.ASNM.\%29&OS=ISD/20130806+AND+AN/Google&RS=\%28ISD/20130806+AND+AN/Google\%29}
+
+\bibitem{Money}
+Mark Morelli ''Android no cash cow for Google'' Website Commentary N.P., n.d Web. 11 Dec. 2013 \url{http://www.fool.com/investing/general/2013/12/11/android-is-no-cash-cow-for-google.aspx}.
+
+\bibitem{android-market}
+Gartner, Inc. "Gartner Says Annual Smartphone Sales Surpassed Sales of Feature Phones for the First Time in 2013." Gartner. Gartner, 13 Feb. 2014. Web. 4 Apr. 2014. \url{http://www.gartner.com/newsroom/id/2665715}.
 
 \bibitem{android-disabled-help}
 Google ''Using Google products: How to use accessibility features'' url{http://www.google.com/accessibility/products/}
@@ -235,10 +238,14 @@ Medivo ''OnTrack Diabetes'' app for monitoring relevantdiabetes information
 %Android Developers. ''Licenses'' Licenses for Android N.p, n.d. Viewed 2014-4-4 \url{http://source.android.com/source/licenses.html}
 
 %\bibitem{android-powered-by-android-mandate}
+<<<<<<< HEAD
 %Russel Holly ''Google mandates ‘Powered by Android’ branding on new devices'' Google %mandates that devices running Android must show the powered by anderoid at startup N.p, n.d. \url{http://www.geek.com/android/google-mandates-powered-by-android-branding-on-new-devices-1589253/}
+=======
+%Russel Holly ''Google mandates ‘Powered by Android’ branding on new devices'' Google mandates that devices running Android must show the powered by anderoid at startup N.p, n.d. \url{http://www.geek.com/android/google-mandates-powered-by-android-branding-on-new-devices-1589253/}
+>>>>>>> 29f7efc3df69374c3d0f1486fe2d52686581e85b
 
-%\bibitem{android-release}
-%Dan Morrill ''Announcing the Android 1.0 SDK, release 1'' Initial release of Andropid N.p., n.d. \url{http://android-developers.blogspot.in/2008/09/announcing-android-10-sdk-release-1.html}
+\bibitem{android-release}
+Dan Morrill ''Announcing the Android 1.0 SDK, release 1'' Initial release of Andropid N.p., n.d. \url{http://android-developers.blogspot.in/2008/09/announcing-android-10-sdk-release-1.html}.
 
 \end{thebibliography}
 
