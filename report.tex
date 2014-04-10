@@ -111,22 +111,23 @@ This report was written as part of a course on soft issues in software engineeri
 
 
 \section{Introduction}
+\label{intro}
 %The introduction section can be used to introduce the company in general or to introduce the purpose and context of this report. This template is a document that provides the predefined outline of your group essay from the seminar compendium. If you want to change or adjust your outline, you must do so before the outline is due (April 11, 2014). The outline shall include a brief description of your system in Section~\ref{system}, and the results from the seminars in Sections~\ref{quality}, \ref{availability}, and \ref{legal} --- at least an itemised form. Further, literature that you base your analysis on should be listed. Primarily, \emph{peer-reviewed literature} shall be used.
 
 %It is important to note that you have a page limit of 5-7 pages (excluding references) for your final report (which is due May 16, 2014), hence it is important to decide how much should be analysed, discussed, and written for each section.
 
-The company behind the Android Open Source Project is Google\cite{android}, a company that is well-known for their search engine, google.com. They are also widely known for being very popular among computer enthusiasts, but due to the massive amount of information they gather for personalising ads, many also oppose them. In 2008 they also released their operating system for cell phones, namely Android\cite{android-release}. When doing so, they also released it as open source\cite{android}. This includes the entire operating system, with the exception of Google's own apps, that are not included. By releasing the operating system as open source through the Android Open Source Project, they have allowed developers to produce their own versions of the system completely free, making Google's Android one of the largest competitors in the cell phone operating system market\cite{android-market}.
+The company behind the Android Open Source Project is Google\cite{android}, a company that is well-known for their search engine, google.com. They are also widely known for being very popular among computer enthusiasts, but due to the massive amount of information they gather for personalising ads, many also oppose them. In 2008 they also released their operating system for cell phones, namely Android.\cite{android-release} When doing so, they also released it as open source.\cite{android} This includes the entire operating system, with the exception of Google's own apps, that are not included. By releasing the operating system as open source through the Android Open Source Project, they have allowed developers to produce their own versions of the system completely free, making Google's Android one of the largest competitors in the cell phone operating system market.\cite{android-market}
 
 
 \section{Description of the System}
 \label{system}
 %In this section you should describe the system that your group has selected. Your system description should not only describe the technical parts of the system, but also from a user point of view. 
 
-The Android Open Source Project is a project created and led by Google. It's an operating system for cell phones, and the entire code is open source, i.e. available for anybody to see and use. It also allows companies and end-users to create their own versions of the operating system and even contribute those to make them openly available to anyone else who might be interested\cite{android}. The Android Open Source Project was started along with the release of Android in 2008. Since then, many large cell phone companies, most famously Samsung, Sony and HTC, have taken on android as the standard operating system for their cell phones. 
-
-The open source code also allows developers to easily write apps for Android. With everything being openly available, it is clear what is and isn't possible to create. It also becomes a lot easier to connect apps to hardware such as the camera or gyroscope.
-
-From a users perspective, Android is often the preferred choice for tech geeks, due to the ability to freely modify it through the open source code. However, compared to Apple's iPhone, the extra options adds many layers of more complexity to Android which shuns those who prefer a simpler \footnote{simplicity in this context refers to the ISO/IEC 9126\cite{jung2004} sub characteristics ''intuitiveness'' and ''minimalism'' whereas an experienced Linux geek would want to define it as the Arch Linux community does\cite{archway}.} operating system. 
+The Android Open Source Project is a project created and led by Google. It's an operating system for cell phones, and the entire code is open source, i.e. available for anybody to see and use. It also allows companies and end-users to create their own versions of the operating system and even contribute those to make them openly available to anyone else who might be interested.\cite{android} The Android Open Source Project was started along with the release of Android in 2008. Since then, many large cell phone companies, most famously Samsung, Sony and HTC, have taken on android as the standard operating system for their cell phones. \\
+\\
+The open source code also allows developers to easily write apps for Android. With everything being openly available, it is clear what is and isn't possible to create. It also becomes a lot easier to connect apps to hardware such as the camera or gyroscope.\\
+\\
+From a users perspective, Android is often the preferred choice for tech geeks, due to the ability to freely modify it through the open source code. However, compared to Apple's iPhone, the extra options adds many layers of more complexity to Android which shuns those who prefer a simpler \footnote{simplicity in this context refers to the ISO/IEC 9126\cite{jung2004} sub characteristics ''intuitiveness'' and ''minimalism'' whereas an experienced Linux geek would want to define it as the Arch Linux community does.\cite{archway}} operating system. 
 
 
 \section{Quality Characteristics}
@@ -134,7 +135,7 @@ From a users perspective, Android is often the preferred choice for tech geeks, 
 %Under this section you should discuss which quality characteristics are particular important for this system. Which quality characteristics are considered most important, i.e. prioritize among the relevant quality characteristics, and provide a rationale for the prioritization. In addition, from which perspective is the prioritization important. You find the quality characteristics in the ISO 9126 standard in one article, e.g. \cite{jung2004} in the articles course compendium. The prioritization can be performed at the characteristics level and/or at the sub-characteristics level.
 
 Using ISO/IEC 9126\cite{jung2004} to investigate the system we found that: \\
-For a system like AOSP there is a great need for usability because if people can't use the phone all other quality aspects become irrelevant. The second most important aspect of the AOSP is its portability. Its ability to be run on different hardware is part of its appeal to electronics producers and by extension the end consumers. Thirdly being designed to run on smartphones, tablets and generally low performance platforms makes the efficiency of AOSP highly important as it would restrict the battery life and usability of devices running AOSP. As integrated as smartphones are in our lives reliability of the software is crucial. If the device doesn't perform and function as expected its usability will suffer heavily. The continuous use and expansion of AOSP requires easy maintenance as to keep it relevant. Functionality is mainly provided by third party software and the AOSP only requires framework to allow them to function. There are several quality guidelines for how to write third party software for AOSP\cite{android-quality}.
+For a system like AOSP there is a great need for usability because if people can't use the phone all other quality aspects become irrelevant. The second most important aspect of the AOSP is its portability. Its ability to be run on different hardware is part of its appeal to electronics producers and by extension the end consumers. Thirdly being designed to run on smartphones, tablets and generally low performance platforms makes the efficiency of AOSP highly important as it would restrict the battery life and usability of devices running AOSP. As integrated as smartphones are in our lives reliability of the software is crucial. If the device doesn't perform and function as expected its usability will suffer heavily. The continuous use and expansion of AOSP requires easy maintenance as to keep it relevant. Functionality is mainly provided by third party software and the AOSP only requires framework to allow them to function. There are several quality guidelines for how to write third party software for AOSP.\cite{android-quality}
 
 
 \section{Availability for Disabled}
@@ -144,7 +145,7 @@ For a system like AOSP there is a great need for usability because if people can
 
 The Android Open Source Project (AOSP) is in its nature as a smartphone and tablet operating system not suited for several types of disabilities. Touch input with first and foremost visual feedback hinders anyone with impeded visual and/or motor skills. AOSP does however have several features to help people with at least visual impairment, such as a text-to-speech engine and screen reader.\cite{android-disabled-help} \\
 \\
-The base of the AOSP project in itself does not contain many additional functions for helping the disabled, however the functionality of the AOSP can be extended with apps that are specialized for the disabled.\cite{android-disabled-apps} Many of the apps Google usually include in their distributions of AOSP include optimisations for text-to-speech\cite{android-disabled-help}. The AOSP also supports apps that help people with other disabilities that don't directly affect their usage of the project itself. An example of this is the assistance with disabilities such as diabetes by allowing them to use their AOSP based phone to remember, calculate and notify them about their status.\cite{android-disabled-diabetes} This is such a common type of app that even the FDA has proposed guidelines for apps used for medical applications.\cite{android-disabled-FDA}
+The base of the AOSP project in itself does not contain many additional functions for helping the disabled, however the functionality of the AOSP can be extended with apps that are specialized for the disabled.\cite{android-disabled-apps} Many of the apps Google usually include in their distributions of AOSP include optimisations for text-to-speech.\cite{android-disabled-help} The AOSP also supports apps that help people with other disabilities that don't directly affect their usage of the project itself. An example of this is the assistance with disabilities such as diabetes by allowing them to use their AOSP based phone to remember, calculate and notify them about their status.\cite{android-disabled-diabetes} This is such a common type of app that even the FDA has proposed guidelines for apps used for medical applications.\cite{android-disabled-FDA}
 
 
 
@@ -152,13 +153,15 @@ The base of the AOSP project in itself does not contain many additional function
 \label{ethics}
 %Which ethical questions must be answered for the system? Here you should identify, and discuss, ethical dilemmas/potential ethical issues related to your system. Examples of different kinds of ethical dilemmas can be found in Berenbach and Broy \cite{berenbach2004}.
 
-Due to the fact that Google themselves do not develop any of the open-source applications and systems they do not themselves face any ethical dilemmas that may come up due to the project being open-source. This could be a problem due to the fact that Android automatically is associated with Google. While Google are in charge of the licenses for open-source they have outsourced it to Apache\cite{android-licenses}. This can lead to a major oversight with companies and countries using Android Open-Source Project (AOSP). Countries such as China have used Android as a look-to when writing their own systems\cite{country-license} although their systems are Linux Kernel based. China is known for using technology to control and monitor their citizens. This may become a problem for Android if they are associated with systems such as Chinas.\\
+Due to the fact that Google themselves do not develop any of the open-source applications and systems they do not themselves face any ethical dilemmas that may come up due to the project being open-source. This could be a problem due to the fact that Android automatically is associated with Google. While Google are in charge of the licenses for open-source they have outsourced it to Apache.\cite{android-licenses} This can lead to a major oversight with companies and countries using Android Open-Source Project (AOSP). Countries such as China have used Android as a look-to when writing their own systems\cite{country-license} although their systems are Linux Kernel based. China is known for using technology to control and monitor their citizens. This may become a problem for Android if they are associated with systems such as Chinas.\\
+\\
 Applications and systems based on AOSP can easily, without Google's knowledge or consent, both break laws and ethical rules. So while AOSP is good for the technology community it can also become a burden for Google and their interests.
 
 
 \section{Legal Aspects}
 \label{legal}
 %In this section you should discuss and analyse which legal aspects, e.g. intellectual property, are relevant for your system.
+
 
 The Android Open Source project is mainly licensed under the Apache Software License 2.0 \cite{apache-license}, something that has been criticised by, among others, Richard Stallman for not being Free Software\cite{rms-android}. Other parts of the system, namely the Linux kernel and applicable patches, are (inherently) licensed with the GPLV2 license\cite{gplv2}\cite{android-licenses}. Despite using Open Source to encourage participatory culture, Google holds a handful of patents that could be used to stifle competition\cite{google-slide-unlock}\cite{google-radial-menu}. 
 \\
@@ -170,25 +173,31 @@ The AOSP has on several occations bee sued for infringing on patents in what has
 \label{financial}
 %Under this section business aspects should be analysed and discussed. What are the business driving forces in favour of and against your system? Who are the investors, who can make a profit, what is the cost for the individual, and what is the cost for society? Which business model is used for your system, and what investment strategy is used (short-term or long-term)? These questions are examples of what can be analysed with regards to business aspects. 
 
-Google does not make any direct money of Android Open Source Project (AOSP), due to the fact that licensing is free\cite{Money}. The way for Google to make money is to push out android phones, and the fact that they use Google licensed products such as Chrome, Google Search, etc. Google's search engine is today two thirds of the company revenue service and makes up for any loses that are made from AOSP. To be able to use AOSP, one must seek either a individual grant or an company grant \cite{android-licenses}. These licenses are free and Google takes none of the profit generated by products or systems that uses an Apache License.
+There are many business opportunities regarding the open source software in Android. Direct money however, is not one of them, as Google does not make any direct money of Android Open Source Project (AOSP) due to the fact that licensing is free.\cite{Money} Instead, the way Google makes money off the AOSP is by using other Google licensed products such as Chrome, Google Search, etc. By doing so, they achieve their monetary goals through their trademark, namely ads. Google's search engine is today two thirds of the company revenue service and makes up for any losses that are made from AOSP.\cite{requires citation!} \\
+\\
+The AOSP is however also a huge market opportunity for many other companies as well, which can be clearly seen today. Many of the top cell-phone developers today use Android as their base operating system, and then build their own adaptation of it to make it unique to the company. To be able to use AOSP, one must seek either a individual grant or an company grant.\cite{android-licenses} These licenses are free and Google takes none of the profit generated by products or systems that uses an Apache License.\\
+\\
+Individuals also have a lot to gain from the AOSP. Being open-source, it allows users to delve into the code that runs on their phones and make personal changes for their own phone. While this does grant some considerable coding experience, the real benefits lie in contributing to the project. By contributing, individuals can gain great work experience by communicating with the community and by having their code thoroughly reviewed they gain yet more coding experience than they could have otherwise. Not only does this improve Android and the AOSP as a whole but it also develops the individuals and increases the quality of future engineers, benefitting the entire software community in the long haul. 
 
 
 \section{Summary}
+\label{summary}
 %In the summary section you should summarise what your report is about and present your main findings/consequences. 
 
 In conclusion, The Android Open Source Project has been largely successful with spreading the operating system, obtaining developers and encouraging participation from the community. Despite Google not seeing any significant revenue streams from the project itself, it acts as a gateway-product to introduce (and lock) customers to their other products, adding to their vast data collections.
 
 
 \section{Contribution Statement}
+\label{contribution}
 %In this section you state the role and contribution of each co-author. 
 
-Co-Author Björn Lindquist has been in charge of researching and writing the Business Aspects and Ethical Aspects of this paper. He has also spent time peer-reviewing the other co-authors' pieces.
+Co-Author Björn Lindquist has been in charge of researching and writing the outline of the Business Aspects and Ethical Aspects of this paper. He has also spent time peer-reviewing the other co-authors' pieces.
 \\
 \\
 Co-Author Alexander Anderson has been in charge of researching and writing the Availability for Disabled part of this paper and has spent time peer-reviewing the other co-authors' pieces.
 \\
 \\
-Co-Author Björn Isacsson has been in charge of writing the Abstract, the Introduction and the Description of the System. Furthermore, he has searched for and found relevant peer-reviewed material for all and any part of the report. He has also spent time peer-reviewing the other co-authors pieces. 
+Co-Author Björn Isacsson has been in charge of writing the Abstract, the Introduction (\ref{intro}) and the Description of the System (\ref{system}). He has also added the majority of the Business Aspects (\ref{financial}) section following exercise 4. Furthermore, he has searched for and found relevant peer-reviewed material for all and any part of the report. He has also spent time peer-reviewing the other co-authors pieces. 
 \\
 \\
 Co-Author Timmy Larsson has been in charge of researching and writing the Legal Aspects and Summary of this paper. Hir has also spent time reviewing the other co-authors' pieces.
@@ -207,9 +216,6 @@ Gartner, Inc. "Gartner Says Annual Smartphone Sales Surpassed Sales of Feature P
 
 \bibitem{android-release}
 Dan Morrill ''Announcing the Android 1.0 SDK, release 1'' Initial release of Andropid N.p., n.d. \url{http://android-developers.blogspot.in/2008/09/announcing-android-10-sdk-release-1.html}.
-
-\bibitem{android-market}
-Gartner, Inc. "Gartner Says Annual Smartphone Sales Surpassed Sales of Feature Phones for the First Time in 2013." Gartner. Gartner, 13 Feb. 2014. Web. 4 Apr. 2014. \url{http://www.gartner.com/newsroom/id/2665715}.
 
 \bibitem{jung2004}
 H-W. Jung, S-G Kim, and C-S Chung, ''Measuring Software Product Quality: A Survey of ISO/IEC 9126'' IEEE Software, 21(5), pp. 88--92, 2004.
