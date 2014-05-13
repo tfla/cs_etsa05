@@ -102,7 +102,7 @@ E-mail addresses: \href{mailto:dat12aan@student.lu.se}{Alexander Anderson}, \hre
 \begin{abstract}
 %This document is a template. The various components of your paper (title, headings, etc.) are already defined on the style sheet, as illustrated by the portions given in this document. The abstract of the final report should present i) background or context, ii) objectives or aims, iii) method for the study, iv) results, and v) conclusions.
 
-This report was written as part of a course on soft issues in software engineering. The report studies the social aspects of the Android Open Source Project, discussing the ethical, legal and business aspects of the project. It also looks into the quality characteristics and availability for the disabled. This was done by studying what is included in the Android Open Source Project, as well as with the help of peer-reviewed and other cited sources. 
+This report was written as part of a course on soft issues in software engineering. The report studies the social aspects of the Android Open Source Project (AOSP), discussing the ethical, legal and business aspects of the project. It also looks into the quality characteristics and availability for the disabled. This was done by studying what is included in the AOSP, as well as with the help of peer-reviewed and other cited sources. 
 
 %Results
 %Conclusions
@@ -119,7 +119,6 @@ This report was written as part of a course on soft issues in software engineeri
 To most, Google\cite{android} is a very well known company, not only for their search engine but also their increasing amount of other utilities, such as Google Maps and Google Android. According to Google, their aim "is to organize the world’s information and make it universally accessible and useful".\cite{Goggin} This has made them quite a controversial company, with many people supporting their goal while others view it as an invasion of the user's privacy and thus oppose Google instead. 
 In 2008 they officially released their first operating system for cell phones, Android.\cite{android-release} Already then, it was licensed and released as open source.\cite{android} This covers essentially the entire operating system, with the exception of Google's own apps which are not included in the license. This open source release has opened up a huge market for developers, allowing developers to produce their own versions of the system with ease. Because of this, Google's Android and its Open Source Project has become one of the largest competitors in the cell phone operating system market.\cite{android-market}
 
-
 \section{Description of the System}
 \label{system}
 %In this section you should describe the system that your group has selected. Your system description should not only describe the technical parts of the system, but also from a user point of view. 
@@ -128,7 +127,6 @@ The Android Open Source Project is a project created and led by Google. It's an 
 \\The Android Open Source Project was started along with the release of Android in 2008. Since then, many large cell phone companies, most famously Samsung, Sony and HTC, have taken on android as the standard operating system for their cell phones. 
 \\The open source code also allows developers to easily write apps for Android. With everything being openly available, it is clear what is and isn't possible to create. It also becomes a lot easier to connect apps to hardware such as the camera or gyroscope.
 \\From a users perspective, Android is often the preferred choice for tech geeks, due to the ability to freely modify it through the open source code. However, compared to Apple's iPhone, the extra options adds many layers of more complexity to Android which shuns those who prefer a simpler \footnote{simplicity in this context refers to the ISO/IEC 9126\cite{jung2004} sub characteristics ''intuitiveness'' and ''minimalism'' whereas an experienced Linux geek would want to define it as the Arch Linux community does.\cite{archway}} operating system. 
-
 
 \section{Quality Characteristics}
 \label{quality}
@@ -143,7 +141,8 @@ For a system like AOSP there is a great need for usability because if people can
 
 %Here you should provide a discussion/analysis of which aspects of availability for the elderly, disabled, and individuals with special needs are current interests. Analyse how can Information and Communication Technology (ICT) help people with disability. However, if your system is not applicable for people with disabilities, analyse the system with respect to accessibility with respect to general human-computer interaction. 
 
-The Android Open Source Project (AOSP) is in its nature as a smartphone and tablet operating system not suited for several types of disabilities. Touch input with first and foremost visual feedback hinders anyone with impeded visual and/or motor skills. AOSP does however have several features to help people with at least visual impairment, such as a text-to-speech engine and screen reader.\cite{android-disabled-help} \\The base of the AOSP project in itself does not contain many additional functions for helping the disabled, however the functionality of the AOSP can be extended with apps that are specialized for the disabled.\cite{android-disabled-apps} Many of the apps Google usually include in their distributions of AOSP include optimisations for text-to-speech.\cite{android-disabled-help} The AOSP also supports apps that help people with other disabilities that don't directly affect their usage of the project itself. An example of this is the assistance with disabilities such as diabetes by allowing them to use their AOSP based phone to remember, calculate and notify them about their status.\cite{android-disabled-diabetes} This is such a common type of app that even the FDA has proposed guidelines for apps used for medical applications.\cite{android-disabled-FDA}
+The AOSP is in its nature as a smartphone and tablet operating system not suited for several types of disabilities. Touch input with first and foremost visual feedback hinders anyone with impeded visual and/or motor skills. AOSP does however have several features to help people with at least visual impairment, such as a text-to-speech engine and screen reader.\cite{android-disabled-help} 
+\\The base of the AOSP project in itself does not contain many additional functions for helping the disabled, however the functionality of the AOSP can be extended with apps that are specialized for the disabled.\cite{android-disabled-apps} Many of the apps Google usually include in their distributions of AOSP include optimisations for text-to-speech.\cite{android-disabled-help} The AOSP also supports apps that help people with other disabilities that don't directly affect their usage of the project itself. An example of this is the assistance with disabilities such as diabetes by allowing them to use their AOSP based phone to remember, calculate and notify them about their status.\cite{android-disabled-diabetes} This is such a common type of app that even the FDA has proposed guidelines for apps used for medical applications.\cite{android-disabled-FDA}
 
 
 
@@ -165,20 +164,22 @@ The Android Open Source project is mainly licensed under the Apache Software Lic
 \\Despite using Open Source to encourage participatory culture, Google holds a handful of patents that could be used to stifle competition.\cite{google-slide-unlock}\cite{google-radial-menu} Among the ways it has achieved these patents, is the purchase of Motorola Mobility. Amassing a sum of \$12.5 billion to buy the mobile part of Motorola, Google also achieved a crucial 17 000 patents to defend themselves against "anti-competitive threats".\cite{Goggin}
 \\The AOSP has on several occations been sued for infringing on patents in what has been known as the smartphone patentwars. On many occations it has been device makers using android who have been sued.\cite{android-vApple} Google has in the interest of protecting device makers and extending the usage of Android and the AOSP defended these devicemakers from bigger comptetitors.\cite{google-helps} The AOSP has rearerly come under attack and competitors have focused more on suing companies using parts of the AOSP and not AOSP themselves. One notable difference is the the Oracle v. Google case where Google was sued for copying the Javadoc comments to its own implementations.\cite{android-v-oracle} The case was ruled in Google and the AOSPs favor.
 
+
 \section{Business Aspects}
 \label{financial}
 %Under this section business aspects should be analysed and discussed. What are the business driving forces in favour of and against your system? Who are the investors, who can make a profit, what is the cost for the individual, and what is the cost for society? Which business model is used for your system, and what investment strategy is used (short-term or long-term)? These questions are examples of what can be analysed with regards to business aspects. 
 
-There are many business opportunities regarding the open source software in Android. Direct money however, is not one of them, as Google does not make any direct money of Android Open Source Project (AOSP) due to the fact that licensing is free.\cite{Money} Instead, the way Google makes money off the AOSP is by using other Google licensed products such as Chrome, Google Search, etc. By doing so, they achieve their monetary goals through their trademark, namely ads. Google's search engine is today two thirds of the company revenue service and makes up for any losses that are made from AOSP.\cite{requires citation!} 
-\\The AOSP is however also a huge market opportunity for many other companies as well, which can be clearly seen today. Many of the top cell-phone developers today use Android as their base operating system, and then build their own adaptation of it to make it unique to the company. To be able to use AOSP, one must seek either a individual grant or an company grant.\cite{android-licenses} These licenses are free and Google takes none of the profit generated by products or systems that uses an Apache License.
-\\Individuals also have a lot to gain from the AOSP. Being open-source, it allows users to delve into the code that runs on their phones and make personal changes for their own phone. While this does grant some considerable coding experience, the real benefits lie in contributing to the project. By contributing, individuals can gain great work experience by communicating with the community and by having their code thoroughly reviewed they gain yet more coding experience than they could have otherwise. Not only does this improve Android and the AOSP as a whole but it also develops the individuals and increases the quality of future engineers, benefitting the entire software community in the long haul. 
+There are many business opportunities regarding the open source software in Android. Direct money however, is not one of them, as Google does not make any direct money of Android Open Source Project (AOSP) due to the fact that licensing is free.\cite{Money} Instead, the way Google makes money off the AOSP is by encouraging internet usage and by extention usage of Google Search. By doing so, they achieve their monetary goals through their trademark, namely ads. Advertisement makes up 90\% of Google revenue. \cite{google-revenue} This makes up for the expenditure associated with the AOSP. 
+\\Besides providing a plattfom for Google advertisement to be displayed the Android project also acts as insurance that their will be devices and thereby consumers using different google services.\cite{moat} The danger being that any device or software maunfacturer could cut google out and by doing so threatening its ability to deliver ads to consumers. That threat is real with major device maker Apple inc. changing to Microsoft Bing, a Google competitor, as default search provider. \cite{siri-bing} By backing the AOSP Google makes sure there will always be a plattform using Google search. The large success of Android with a global marketshare of 79\% secures the future of Google search and thereby the future of Google. \cite{android-marketshare}
+\\The AOSP is however also a huge market opportunity for many other companies as well, which can be clearly seen today. Many of the top cell-phone developers today use Android as their base operating system, and then build their own adaptation of it to make it unique to the company. To be able to use AOSP, one must seek either a individual grant or an company grant.\cite{android-licenses} These licenses are free and Google takes none of the profit generated by products or systems that uses an Apache License.\\
+Individuals also have a lot to gain from the AOSP. Being open-source, it allows users to delve into the code that runs on their phones and make personal changes for their own phone. While this does grant some considerable coding experience, the real benefits lie in contributing to the project. By contributing, individuals can gain great work experience by communicating with the community and by having their code thoroughly reviewed they gain yet more coding experience than they could have otherwise. Not only does this improve Android and the AOSP as a whole but it also develops the individuals and increases the quality of future engineers, benefitting the entire software community in the long haul. 
 
 
 \section{Summary}
 \label{summary}
 %In the summary section you should summarise what your report is about and present your main findings/consequences. 
 
-In conclusion, The Android Open Source Project has been largely successful with spreading the operating system, obtaining developers and encouraging participation from the community. Despite Google not seeing any significant revenue streams from the project itself, it acts as a gateway-product to introduce (and lock) customers to their other products, adding to their vast data collections.
+In conclusion, The AOSP has been largely successful with spreading the operating system, obtaining developers and encouraging participation from the community. Having based their work on an already established, open source, project; they have limited the initial research and development costs, instead focusing on developing user interface technology and advertisement technology. Despite Google not seeing any significant revenue streams from the project itself, it acts as a gateway-product to introduce (and lock) customers to their other products, adding to their vast data collections.
 
 
 \section{Contribution Statement}
@@ -186,7 +187,7 @@ In conclusion, The Android Open Source Project has been largely successful with 
 %In this section you state the role and contribution of each co-author. 
 
 Co-Author Björn Lindquist has been in charge of researching and writing the outline of the Business Aspects and Ethical Aspects of this paper. He has also spent time peer-reviewing the other co-authors' pieces.
-\\Co-Author Alexander Anderson has been in charge of researching and writing the Availability for Disabled part of this paper and has spent time peer-reviewing the other co-authors' pieces.
+\\Co-Author Alexander Anderson has been in charge of researching and writing the Availability for Disabled part of this paper and has spent time peer-reviewing the other co-authors' pieces. Alexander also extended the legal aspects section with sources for devicemakers being sued. Updated and expanded on the monetary incentive for google to back the AOSP.
 \\Co-Author Björn Isacsson has been in charge of writing the Abstract, the Introduction (\ref{intro}) and the Description of the System (\ref{system}). He has also added the majority of the Business Aspects (\ref{financial}) section following exercise 4. Furthermore, he has searched for and found relevant peer-reviewed material for all and any part of the report. He has also spent time peer-reviewing the other co-authors pieces. 
 \\Co-Author Timmy Larsson has been in charge of researching and writing the Legal Aspects and Summary of this paper. Hir has also spent time reviewing the other co-authors' pieces.
 
@@ -258,6 +259,22 @@ Google backs HTC in patent battle with Apple
 \bibitem{android-v-oracle}
 Oracle suing google over java api
 \url{http://arstechnica.com/tech-policy/2012/05/google-wins-crucial-api-ruling-oracles-case-decimated/}.
+
+\bibitem{google-revenue}
+Google financial tables 2014
+\url{http://investor.google.com/financial/tables.html}
+
+\bibitem{moat}
+How Strong Is The Moat Of Google Inc (GOOG)?
+\url{http://www.valuewalk.com/2013/01/how-strong-is-the-moat-of-google-inc-goog/}
+
+\bibitem{siri-bing}
+With iOS 7, Siri Drops Google For Bing, Also Gains Twitter Search
+\url{http://searchengineland.com/with-ios-7-siri-drops-google-for-bing-172110}
+
+\bibitem{android-marketshare}
+Android Captured 79\% Share of Global Smartphone Shipments in 2013
+\url{http://blogs.strategyanalytics.com/WSS/post/2014/01/29/Android-Captured-79-Share-of-Global-Smartphone-Shipments-in-2013.aspx}
 
 %\bibitem{android-jail}
 %Ron Amadeo ''Google’s iron grip on Android: Controlling open source by any means necessary'' Google policies regarding android N.p., n.d. Oct 21 2013, 3:00am CEST \url{http://arstechnica.com/gadgets/2013/10/googles-iron-grip-on-android-controlling-open-source-by-any-means-necessary}
